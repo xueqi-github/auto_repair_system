@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zlp.auto_repair_system.mapper.ReservationProcessMapper">
+  <resultMap id="BaseResultMap" type="com.zlp.auto_repair_system.pojo.ReservationProcess">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="reservation_id" jdbcType="INTEGER" property="reservationId" />
+    <result column="processing_time" jdbcType="TIMESTAMP" property="processingTime" />
+    <result column="employee_id" jdbcType="INTEGER" property="employeeId" />
+  </resultMap>
+</mapper>
